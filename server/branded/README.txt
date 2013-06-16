@@ -1,0 +1,1 @@
+directory for generated qr codes

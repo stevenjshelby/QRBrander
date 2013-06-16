@@ -1,0 +1,49 @@
+html {
+	background-color: #b0b0b0;
+}
+
+#header {
+	text-align: center;
+}
+
+#input-container {
+	position: relative;
+	width: 500px;
+	margin: 0 auto 0 auto;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+#genBtn {
+	border-radius: 5px;
+}
+
+#input-form input, #input-form button {
+	margin: 0;
+	padding: 4px;
+}
+
+.formline {
+	margin: 5px 0 5px 0;
+}
+
+.formlabel {
+	width: 120px;
+	background-color: #c2440c;
+	padding: 4px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+#result-container {
+	width: 500px;
+	margin: 10px auto 10px auto;
+	text-align: center;
+}
+
+#brandedImg {
+	width: 500px;
+	height: 500px;
+	border-radius: 7px;
+}
