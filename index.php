@@ -25,6 +25,18 @@
             <h1>QR Code Brander</h1>
         </div>
 
+        <div id="recent-sidebar">
+            <h2>Recent QR Codes</h2>
+
+            <hr>
+
+            <!-- The idea is to load the 5 latest QR codes that were generated here-->
+            <img src="server/branded/b_1371423557amazon.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371423575woot.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371423582reddit.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371423593hnlogo.png" class="sidebarImg"><br>
+        </div>
+
         <div id="input-container">
             <form id="input-form">
                 <div class="formline"><span class="formlabel">Upload Logo: </span><input type="file" name="logo-file-input" id="logofile"></div>
