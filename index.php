@@ -31,10 +31,12 @@
             <hr>
 
             <!-- The idea is to load the 5 latest QR codes that were generated here-->
-            <img src="server/branded/b_1371423826woot.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371423835reddit.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371423847hnlogo.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371423872amazon.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371429873hnlogo.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371430961google.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371429881woot.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371429893reddit-alien.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371430035amazon.png" class="sidebarImg"><br>
+            <img src="server/branded/b_1371430163building.png" class="sidebarImg"><br>
         </div>
 
         <div id="input-container">
