@@ -4,8 +4,6 @@
 	$filename = str_replace("\"","'",$_POST['filename']);
 	$qrdata = urlencode($_POST['qrdata']);
 
-	echo $filedata;
-
 	$serverLogo = time().$filename;
 	$serverBranded = "b_".$serverLogo;
 
@@ -19,7 +17,6 @@
 	fclose($fp);
 
 	$scriptdata = shell_exec('python ../brander/QRBrander.py logos/'.$serverLogo.' 400 branded/'.$serverBranded.' '.$qrdata);
-	echo $scriptdata;
 
 	$returnData = array( "serverLogo" => $serverLogo, "serverBranded" => $serverBranded );
 	echo json_encode($returnData);
