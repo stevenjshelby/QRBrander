@@ -23,7 +23,14 @@
 
         <div id="header">
             <h1>QR Code Brander</h1>
-            <h3><a href="https://github.com/theUberPwner/QRBrander">https://github.com/theUberPwner/QRBrander</a></h3>
+
+            <p>There comes a time in a company’s life when a plain QR code just won’t cut it. Ours came when we were about to stick them on 4,000 meters so you can pay for parking by phone. Why not add some style to that QR!! We looked around for an open source library. Nadda.  How much was this going to run us? Too much. Being the frugal team we are we stuck Steven on the project.</p>
+
+            <p>We have used a lot from the open source community and finally found something cool we thought everyone could use and improve on.</p>
+
+            <p>Sample project running at: <a href="https://myeasyp.com/apps/qrgen/">https://myeasyp.com/apps/qrgen/</a></p>
+
+            <h3>Github: <a href="https://github.com/theUberPwner/QRBrander">https://github.com/theUberPwner/QRBrander</a></h3>
         </div>
 
         <div id="recent-sidebar">
