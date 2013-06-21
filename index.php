@@ -21,17 +21,6 @@
         <![endif]-->
 
 
-        <div id="header">
-            <h1>QR Code Brander</h1>
-
-            <p>There comes a time in a company’s life when a plain QR code just won’t cut it. Ours came when we were about to stick them on 4,000 meters so you can pay for parking by phone. Why not add some style to that QR!! We looked around for an open source library. Nadda.  How much was this going to run us? Too much. Being the frugal team we are we stuck Steven on the project.</p>
-
-            <p>We have used a lot from the open source community and finally found something cool we thought everyone could use and improve on.</p>
-
-            <p>Sample project running at: <a href="https://myeasyp.com/apps/qrgen/">https://myeasyp.com/apps/qrgen/</a></p>
-
-            <h3>Github: <a href="https://github.com/theUberPwner/QRBrander">https://github.com/theUberPwner/QRBrander</a></h3>
-        </div>
 
         <div id="recent-sidebar">
             <h2>Example QR Codes</h2>
@@ -46,19 +35,33 @@
             <img src="server/branded/b_1371430163building.png" class="sidebarImg"><br>
         </div>
 
-        <div id="input-container">
-            <form id="input-form">
-                <div class="formline"><span class="formlabel">Upload Logo(.png): </span><input type="file" name="logo-file-input" id="logofile" accept="image/png"></div>
-                <div class="formline"><span class="formlabel">Data: </span><input type="text" name="data-to-encode" id="qrdata"></div>
-                <div class="formline"><button id="genBtn" class="btn">Generate QR</button></div>
-            </form>
+        <div id="container">
+
+            <div id="header">
+                <h1>QR Code Brander</h1>
+
+                <p>There comes a time in a company’s life when a plain QR code just won’t cut it. Ours came when we were about to stick them on 4,000 meters so you can pay for parking by phone. Why not add some style to that QR!! We looked around for an open source library. Nadda.  How much was this going to run us? Too much. Being the frugal team we are we stuck Steven on the project.</p>
+
+                <p>We have used a lot from the open source community and finally found something cool we thought everyone could use and improve on.</p>
+
+                <p>Sample project running at: <a href="https://myeasyp.com/apps/qrgen/">https://myeasyp.com/apps/qrgen/</a></p>
+
+                <h3>Github: <a href="https://github.com/theUberPwner/QRBrander">https://github.com/theUberPwner/QRBrander</a></h3>
+            </div>
+
+            <div id="input-container">
+                <form id="input-form">
+                    <div class="formline"><span class="formlabel">Upload Logo(.png): </span><input type="file" name="logo-file-input" id="logofile" accept="image/png"></div>
+                    <div class="formline"><span class="formlabel">Data: </span><input type="text" name="data-to-encode" id="qrdata"></div>
+                    <div class="formline"><button id="genBtn" class="btn">Generate QR</button></div>
+                </form>
+            </div>
+
+
+            <div id="result-container">
+
+            </div>
         </div>
-
-
-        <div id="result-container">
-
-        </div>
-
 
 
 
