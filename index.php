@@ -23,6 +23,7 @@
 
         <div id="header">
             <h1>QR Code Brander</h1>
+            <h3><a href="https://github.com/theUberPwner/QRBrander">https://github.com/theUberPwner/QRBrander</a></h3>
         </div>
 
         <div id="recent-sidebar">
@@ -40,7 +41,7 @@
 
         <div id="input-container">
             <form id="input-form">
-                <div class="formline"><span class="formlabel">Upload Logo: </span><input type="file" name="logo-file-input" id="logofile"></div>
+                <div class="formline"><span class="formlabel">Upload Logo(.png): </span><input type="file" name="logo-file-input" id="logofile" accept="image/png"></div>
                 <div class="formline"><span class="formlabel">Data: </span><input type="text" name="data-to-encode" id="qrdata"></div>
                 <div class="formline"><button id="genBtn" class="btn">Generate QR</button></div>
             </form>
@@ -58,12 +59,16 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script> -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-17775015-10', 'myeasyp.com');
+      ga('send', 'pageview');
+
+    </script>
+
     </body>
 </html>

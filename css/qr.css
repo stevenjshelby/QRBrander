@@ -67,3 +67,7 @@ html {
 	margin: 10px 0 10px 0;
 	border-radius: 7px;
 }
+
+a {
+	color: blue; 
+}

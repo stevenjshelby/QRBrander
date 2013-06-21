@@ -1,4 +1,5 @@
 $(document).ready( function() {
+        var validupload = false;
 
 	$("#genBtn").click(function(e) {
 		e.preventDefault();
@@ -6,16 +7,26 @@ $(document).ready( function() {
 	});
 
 	function submitData() {
-		var file = document.getElementById('logofile').files[0]; //Files[0] = 1st file
-		var reader = new FileReader();
+                if (validupload == true) {
+                    if ($("#qrdata").val() == "") {
+ 			alert("Please submit data to encode!");
+  		    }
+		    else {
+		        var file = document.getElementById('logofile').files[0]; //Files[0] = 1st file
+		        var reader = new FileReader();
 
-		reader.readAsDataURL(file);
-		reader.onload = shipOff;
-		//reader.onloadstart = ...
-		//reader.onprogress = ...
-		//reader.onabort = ...
-		//reader.onerror = ...
-		//reader.onloadend = ...
+		        reader.readAsDataURL(file);
+		        reader.onload = shipOff;
+		        //reader.onloadstart = ...
+		        //reader.onprogress = ...
+		        //reader.onabort = ...
+		        //reader.onerror = ...
+		        //reader.onloadend = ...
+                   }
+                }
+                else {
+		    alert("You have not uploaded a valid file.");
+                }
 	}
 
 	function shipOff(event) {
@@ -37,5 +48,22 @@ $(document).ready( function() {
 		   	}
 	    });
 	}
+        
+        var file = document.getElementById('logofile');
+
+        file.onchange = function(e){
+            var ext = this.value.match(/\.([^\.]+)$/)[1];
+            switch(ext)
+            {
+                case 'png':
+                    //only allow png
+                    validupload = true;
+                    break;
+                default:
+                    alert('Sorry. Only PNG is allowed.');
+                    validupload = false;
+                                 
+            }
+        };
 
 });
