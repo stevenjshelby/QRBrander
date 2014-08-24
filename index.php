@@ -20,8 +20,6 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-
-
         <div id="recent-sidebar">
             <h2>Example QR Codes</h2>
 
@@ -39,14 +37,6 @@
 
             <div id="header">
                 <h1>QR Code Brander</h1>
-
-                <p>There comes a time in a company’s life when a plain QR code just won’t cut it. Ours came when we were about to stick them on 4,000 meters so you can pay for parking by phone. Why not add some style to that QR!! We looked around for an open source library. Nadda.  How much was this going to run us? Too much. Being the frugal team we are we stuck Steven on the project.</p>
-
-                <p>We have used a lot from the open source community and finally found something cool we thought everyone could use and improve on.</p>
-
-                <p>Sample project running at: <a href="https://myeasyp.com/apps/qrgen/">https://myeasyp.com/apps/qrgen/</a></p>
-
-                <h3>Github: <a href="https://github.com/theUberPwner/QRBrander">https://github.com/theUberPwner/QRBrander</a></h3>
             </div>
 
             <div id="input-container">
