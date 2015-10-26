@@ -25,12 +25,8 @@
 
             <hr>
 
-            <img src="server/branded/b_1371429873hnlogo.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371430961google.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371429881woot.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371429893reddit-alien.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371430035amazon.png" class="sidebarImg"><br>
-            <img src="server/branded/b_1371430163building.png" class="sidebarImg"><br>
+            <img src="server/examples/passport.png" class="sidebarImg"><br>
+            <img src="server/examples/amazon.png" class="sidebarImg"><br>
         </div>
 
         <div id="container">
