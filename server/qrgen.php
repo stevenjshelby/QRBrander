@@ -20,5 +20,3 @@
 
 	$returnData = array( "serverLogo" => $serverLogo, "serverBranded" => $serverBranded );
 	echo json_encode($returnData);
-
-?>
