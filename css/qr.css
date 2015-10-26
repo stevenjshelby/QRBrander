@@ -9,7 +9,7 @@ html {
 #input-container {
 	position: relative;
 	width: 500px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 0 100px;
 	background-color: #fff;
 	padding: 5px;
 	border-radius: 7px;
