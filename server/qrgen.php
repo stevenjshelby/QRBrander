@@ -16,7 +16,7 @@
 	fwrite($fp, $logodata);
 	fclose($fp);
 
-	$scriptdata = shell_exec('python ../brander/QRBrander.py logos/'.$serverLogo.' 400 branded/'.$serverBranded.' '.$qrdata);
+	$scriptdata = shell_exec('source ../venv/bin/activate && python ../brander/QRBrander.py logos/'.$serverLogo.' 400 branded/'.$serverBranded.' '.$qrdata);
 
 	$returnData = array( "serverLogo" => $serverLogo, "serverBranded" => $serverBranded );
 	echo json_encode($returnData);
